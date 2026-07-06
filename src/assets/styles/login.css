@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    background: url("../../assets/images/backgroundDefault.jpg")
+                center center / cover no-repeat fixed;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.geral-container {
+    width: 73%;
+    height: 80vh; 
+
+    background-color: #3D3D3D;
+    border-radius: 13px;
+
+    display: flex;
+}
+
+.login-container, .image-container {
+    width: 50%;
+    height: 100%;
+
+}
+
+.login-title, .login-form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+
+}
+
+.login-form {
+    gap: 20px;
+}
+
+.login-title{
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 55%;
+    object-fit: contain;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    background-color: #008000;
+    
+}
+
+.input-style {
+  width: 100%;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 30px; /* isso cria o formato de "pílula" */
+  outline: none;
+  font-size: 15px;
+  color: #333;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* sombra sutil, opcional */
+}
+
+.input-style::placeholder {
+  color: #999;
+  text-align: center; /* no exemplo o texto fica centralizado */
+}
+
+.input-style:focus {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4); /* destaque ao focar */
+}
