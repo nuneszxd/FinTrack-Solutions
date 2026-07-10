@@ -124,3 +124,15 @@ body {
 .btn-entrar:focus {
     box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4);
 }
+
+.form-link {
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.form-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+# Dependências (baixadas com "npm install" — não vão pro Git)
+node_modules/
+
+# Banco de dados local (é gerado pelo database.js ao rodar)
+*.db
+
+# Variáveis de ambiente / segredos (senhas, chaves de API, etc.)
+.env
+
+# Logs
+npm-debug.log*

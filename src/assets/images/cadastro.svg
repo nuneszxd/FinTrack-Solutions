@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="fin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34e0c8"/>
+      <stop offset="1" stop-color="#1f9bd6"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#fin)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Corpo do cofrinho -->
+    <ellipse cx="195" cy="240" rx="128" ry="92"/>
+    <!-- Orelha -->
+    <path d="M250 162 q6 -40 44 -30 q-4 26 -20 40"/>
+    <!-- Focinho -->
+    <ellipse cx="308" cy="245" rx="30" ry="38"/>
+    <line x1="300" y1="236" x2="300" y2="254"/>
+    <line x1="316" y1="236" x2="316" y2="254"/>
+    <!-- Patas -->
+    <path d="M235 326 v22 a12 12 0 0 0 24 0 v-14"/>
+    <path d="M150 328 v20 a12 12 0 0 0 24 0 v-16"/>
+    <!-- Rabinho -->
+    <path d="M68 226 q-24 -4 -20 -24 q3 -15 20 -9"/>
+    <!-- Fenda da moeda -->
+    <line x1="165" y1="158" x2="222" y2="152"/>
+    <!-- Moeda caindo -->
+    <circle cx="196" cy="92" r="35"/>
+    <line x1="140" y1="118" x2="128" y2="110"/>
+    <line x1="252" y1="118" x2="264" y2="110"/>
+  </g>
+  <!-- Olho (preenchido) -->
+  <circle cx="272" cy="205" r="6" fill="url(#fin)"/>
+  <!-- Cifrão na moeda -->
+  <text x="196" y="107" font-size="44" fill="url(#fin)" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">$</text>
+</svg>
